@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+
+        <LinearLayout style = "@style/VerticalColumn" android:id="@+id/left_column">
+
+            <ImageView android:id="@+id/lvc_image_view" style = "@style/ImageView" android:contentDescription="@string/an_image"/>
+
+        </LinearLayout>
+
+        <LinearLayout style = "@style/VerticalColumn" android:id="@+id/right_column" android:contentDescription="@string/an_image">
+
+            <ImageView android:id="@+id/rvc_image_view" style="@style/ImageView"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</ScrollView>
