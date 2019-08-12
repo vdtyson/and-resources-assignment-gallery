@@ -1,7 +1,6 @@
 package com.example.galleryapp
 
-import android.graphics.drawable.Drawable
-import android.media.Image
+
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.ViewGroup
@@ -36,11 +35,11 @@ class MainActivity : AppCompatActivity() {
         views[10].setImageDrawable(ContextCompat.getDrawable(this,R.drawable.colorful_colourful_houses_2501965))
         views[11].setImageDrawable(ContextCompat.getDrawable(this, R.drawable.wallpaper_astronomy_astrophotography_2538107))
 
-       /* <style name="ImageView">
-        <item name="android:adjustViewBounds">true</item>
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:padding">10dp</item> d */
+        /* <style name="ImageView">
+         <item name="android:adjustViewBounds">true</item>
+         <item name="android:layout_width">match_parent</item>
+         <item name="android:layout_height">wrap_content</item>
+         <item name="android:padding">10dp</item> d */
 
 
 
