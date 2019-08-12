@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#E3D888</item>
+        <item name="colorPrimaryDark">#DB7F67</item>
+        <item name="colorAccent">#F1F0CC</item>
+    </style>
+    
+    <style name="VerticalColumn">
+
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:orientation">vertical</item>
+
+    </style>
+
+    <style name="ImageView">
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">10dp</item>
+    </style>
+</resources>
